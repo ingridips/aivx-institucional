@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AIVX — Apresentação Institucional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -14,7 +17,7 @@
 <!-- Side nav dots -->
 <nav id="nav"></nav>
 
-<!-- ═══ S1 COVER ═══ -->
+<!-- ═══ S1 — CAPA ═══ -->
 <section class="slide" id="s1" data-label="Capa">
   <video autoplay muted loop playsinline>
     <source src="assets/video/hero.mp4" type="video/mp4">
@@ -24,7 +27,7 @@
 
 <!-- ═══ S2 — DE DARA PARA AIVX ═══ -->
 <section class="slide" id="s2" data-label="Evolução">
-  <div class="title" id="s2-title"></div>
+  <div class="title" id="s2-title">DE DARA PARA AIVX</div>
   <div class="logos">
     <img class="dara" src="assets/images/dara.png" alt="DARA">
     <div class="divl"></div>
@@ -33,15 +36,16 @@
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
-<!-- ═══ S3 — EVOLUÇÃO ═══ -->
+<!-- ═══ S3 — REBRANDING ═══ -->
 <section class="slide" id="s3" data-label="Rebranding">
-  <img class="s3-bg" src="assets/images/v-shape-full.jpg" alt="">
+  <img class="s3-bg" src="assets/images/bg-rebranding.jpg" alt="">
   <div class="s3-right">
-    <div class="headline" id="s3-headline"></div>
+    <div class="headline" id="s3-headline">
+      <span class="tvi">Evolução que<br>acompanha a<br></span><span class="tgr">inteligência<br>que move.</span>
+    </div>
     <div class="body">
-      <p id="s3-p1"></p>
-      <p id="s3-p2"></p>
-      <p id="s3-p3"></p>
+      <p id="s3-p1">A marca <strong>DARA</strong> evoluiu para <strong>AIVX</strong> para refletir nossa visão de tecnologia, precisão e inovação.</p>
+      <p id="s3-p2"><span class="hi">AIVX</span> representa o mesmo compromisso com segurança e excelência, agora aliado a uma inteligência aplicada mais clara e estratégica.</p>
     </div>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
@@ -49,46 +53,47 @@
 
 <!-- ═══ S4 — QUEM SOMOS ═══ -->
 <section class="slide" id="s4" data-label="Quem Somos">
-  <img class="bg" src="assets/images/bg-highway.png" alt="">
+  <img class="bg" src="assets/images/bg-quemssomos.jpg" alt="">
   <div class="ov"></div>
-  <div class="label" id="s4-label"></div>
+  <div class="label" id="s4-label">QUEM SOMOS</div>
   <div class="cc">
     <div class="inner">
-      <div class="hl" id="s4-hl"></div>
+      <div class="hl" id="s4-hl"><span class="aivx">A AIVX</span> nasce com o propósito de levar inteligência tecnológica para operações críticas, onde segurança, precisão e continuidade são indispensáveis.</div>
       <div class="bar"></div>
-      <p id="s4-p"></p>
+      <p id="s4-p">Atuamos no desenvolvimento, integração e implantação de soluções tecnológicas para rodovias, mobilidade urbana, infraestrutura de comunicação e ambientes corporativos, sempre com foco em eficiência operacional e confiabilidade.</p>
     </div>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
-<!-- ═══ S5 — MISSÃO ═══ -->
-<section class="slide" id="s5" data-label="Missão">
-  <img class="s5-bg" src="assets/images/v-shape-full.jpg" alt="">
-  <div class="s5-content">
-    <div class="s5-word" id="s5-word"></div>
-    <p class="s5-text" id="s5-text"></p>
-  </div>
-  <img class="mark" src="assets/images/mark.png" alt="">
-</section>
-
-<!-- ═══ S6 — VALORES ═══ -->
-<section class="slide" id="s6" data-label="Valores">
-  <img class="s6-bg" src="assets/images/v-shape-full.jpg" alt="">
-  <div class="s6-content">
-    <div class="s6-word" id="s6-word"></div>
-    <div class="s6-list">
-      <div class="valor"><strong id="s6-v1-title"></strong><p id="s6-v1-desc"></p></div>
-      <div class="valor"><strong id="s6-v2-title"></strong><p id="s6-v2-desc"></p></div>
-      <div class="valor"><strong id="s6-v3-title"></strong><p id="s6-v3-desc"></p></div>
-      <div class="valor"><strong id="s6-v4-title"></strong><p id="s6-v4-desc"></p></div>
-      <div class="valor"><strong id="s6-v5-title"></strong><p id="s6-v5-desc"></p></div>
+<!-- ═══ S5 — MISSÃO E VALORES ═══ -->
+<section class="slide" id="s5" data-label="Missão e Valores">
+  <img class="s5-bg" src="assets/images/bg-missao.jpg" alt="">
+  <div class="ov" style="position:absolute;inset:0;background:rgba(6,6,14,.72);z-index:0;"></div>
+  <div class="s5-inner">
+    <!-- Missão -->
+    <div class="s5-block">
+      <div id="s5-missao-word" style="flex-shrink:0;white-space:nowrap;font-size:clamp(36px,4.5vw,66px);font-weight:900;letter-spacing:-.03em;text-transform:uppercase;line-height:1;background:linear-gradient(90deg,#7460FF,#74D5D0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;padding-top:4px;">MISSÃO</div>
+      <p id="s5-missao-text" style="font-size:clamp(15px,1.5vw,19px);line-height:1.75;color:#E1DEE1;font-weight:300;max-width:600px;padding-top:4px;">Levar inteligência tecnológica para operações que exigem segurança, precisão e continuidade, contribuindo para rodovias, cidades e infraestruturas mais eficientes e confiáveis.</p>
+    </div>
+    <!-- Separador -->
+    <div style="width:1px;height:100%;background:rgba(255,255,255,.12);flex-shrink:0;"></div>
+    <!-- Valores -->
+    <div class="s5-block">
+      <div id="s5-valores-word" style="flex-shrink:0;white-space:nowrap;font-size:clamp(32px,4vw,58px);font-weight:900;letter-spacing:-.03em;text-transform:uppercase;line-height:1;background:linear-gradient(90deg,#7460FF,#74D5D0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;padding-top:4px;">VALORES</div>
+      <div style="display:flex;flex-direction:column;gap:14px;padding-top:8px;">
+        <div><strong id="s5-v1-title" style="display:block;font-size:clamp(14px,1.4vw,18px);font-weight:700;color:#74D5D0;margin-bottom:3px;">Confiabilidade</strong><p id="s5-v1-desc" style="font-size:clamp(13px,1.2vw,15px);color:#9C9FAB;line-height:1.4;font-weight:300;">Tecnologia precisa funcionar sempre.</p></div>
+        <div><strong id="s5-v2-title" style="display:block;font-size:clamp(14px,1.4vw,18px);font-weight:700;color:#74D5D0;margin-bottom:3px;">Inteligência aplicada</strong><p id="s5-v2-desc" style="font-size:clamp(13px,1.2vw,15px);color:#9C9FAB;line-height:1.4;font-weight:300;">Dados só têm valor quando viram decisão.</p></div>
+        <div><strong id="s5-v3-title" style="display:block;font-size:clamp(14px,1.4vw,18px);font-weight:700;color:#74D5D0;margin-bottom:3px;">Compromisso com a segurança</strong><p id="s5-v3-desc" style="font-size:clamp(13px,1.2vw,15px);color:#9C9FAB;line-height:1.4;font-weight:300;">Cada solução impacta vidas e operações reais.</p></div>
+        <div><strong id="s5-v4-title" style="display:block;font-size:clamp(14px,1.4vw,18px);font-weight:700;color:#74D5D0;margin-bottom:3px;">Evolução contínua</strong><p id="s5-v4-desc" style="font-size:clamp(13px,1.2vw,15px);color:#9C9FAB;line-height:1.4;font-weight:300;">Tecnologia exige atualização constante.</p></div>
+        <div><strong id="s5-v5-title" style="display:block;font-size:clamp(14px,1.4vw,18px);font-weight:700;color:#74D5D0;margin-bottom:3px;">Parceria com o cliente</strong><p id="s5-v5-desc" style="font-size:clamp(13px,1.2vw,15px);color:#9C9FAB;line-height:1.4;font-weight:300;">Crescemos junto com quem confia no nosso trabalho.</p></div>
+      </div>
     </div>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
-<!-- ═══ S7 — ORGANOGRAMA (imagem troca com o idioma) ═══ -->
+<!-- ═══ S7 — ORGANOGRAMA ═══ -->
 <section class="slide" id="s7" data-label="Organograma">
   <img class="org-full" id="s7-orgchart" src="assets/images/orgchart-pt.png" alt="Organograma">
 </section>
@@ -98,27 +103,31 @@
   <img class="bg" src="assets/images/bg-diferenciais.png" alt="">
   <div class="ov"></div>
   <div class="cc">
-    <h1 id="s8-title"></h1>
+    <h1 id="s8-title">DIFERENCIAIS</h1>
     <div class="dif-grid">
       <div class="dif-item">
-        <div class="dif-icon"><img src="assets/images/icon1.png" alt=""></div>
-        <div class="dif-text"><strong id="s8-d1-title"></strong><p id="s8-d1-desc"></p></div>
+        <div class="dif-icon"><img src="assets/images/icon-d1.png" alt=""></div>
+        <div class="dif-text"><strong id="s8-d1-title">Atuação ponta a ponta</strong><p id="s8-d1-desc">Projeto, implantação e suporte em cada etapa da operação.</p></div>
       </div>
       <div class="dif-item">
-        <div class="dif-icon"><img src="assets/images/icon2.png" alt=""></div>
-        <div class="dif-text"><strong id="s8-d2-title"></strong><p id="s8-d2-desc"></p></div>
+        <div class="dif-icon"><img src="assets/images/icon-d2.png" alt=""></div>
+        <div class="dif-text"><strong id="s8-d2-title">Experiência em operações críticas</strong><p id="s8-d2-desc">Atuamos onde falhas não são opção: rodovias, mobilidade e infraestrutura de alto impacto.</p></div>
       </div>
       <div class="dif-item">
-        <div class="dif-icon"><img src="assets/images/icon3.png" alt=""></div>
-        <div class="dif-text"><strong id="s8-d3-title"></strong><p id="s8-d3-desc"></p></div>
+        <div class="dif-icon"><img src="assets/images/icon-d3.png" alt=""></div>
+        <div class="dif-text"><strong id="s8-d3-title">Integração entre tecnologia</strong><p id="s8-d3-desc">Infraestrutura e inteligência de dados unidos para decisões mais rápidas e confiáveis.</p></div>
       </div>
       <div class="dif-item">
-        <div class="dif-icon"><img src="assets/images/icon4.png" alt=""></div>
-        <div class="dif-text"><strong id="s8-d4-title"></strong><p id="s8-d4-desc"></p></div>
+        <div class="dif-icon"><img src="assets/images/icon-d4.png" alt=""></div>
+        <div class="dif-text"><strong id="s8-d4-title">Equipe técnica especializada</strong><p id="s8-d4-desc">Time com expertise em engenharia, TI e telecomunicações, do projeto à operação.</p></div>
       </div>
       <div class="dif-item">
-        <div class="dif-icon"><img src="assets/images/icon5.png" alt=""></div>
-        <div class="dif-text"><strong id="s8-d5-title"></strong><p id="s8-d5-desc"></p></div>
+        <div class="dif-icon"><img src="assets/images/icon-d5.png" alt=""></div>
+        <div class="dif-text"><strong id="s8-d5-title">Segurança</strong><p id="s8-d5-desc">Cada solução é projetada com camadas de proteção para garantir continuidade e integridade das operações.</p></div>
+      </div>
+      <div class="dif-item">
+        <div class="dif-icon"><img src="assets/images/icon-d6.png" alt=""></div>
+        <div class="dif-text"><strong id="s8-d6-title">Sustentabilidade</strong><p id="s8-d6-desc">Tecnologias que reduzem emissões, otimizam recursos e promovem operações mais eficientes e responsáveis.</p></div>
       </div>
     </div>
   </div>
@@ -130,65 +139,111 @@
   <img class="bg" src="assets/images/bg-solucoes.jpg" alt="">
   <div class="ov"></div>
   <div class="cc">
-    <h1 id="s9-title"></h1>
-    <p id="s9-sub"></p>
+    <h1 id="s9-title">SOLUÇÕES</h1>
+    <p id="s9-sub">Ecossistema completo de tecnologia e inteligência operacional</p>
   </div>
 </section>
 
-<!-- ═══ S10 — CFTV ═══ -->
-<section class="slide" id="s10" data-label="CFTV">
+<!-- ═══ SFF — FREE FLOW ═══ -->
+<section class="slide" id="sff" data-label="Free Flow">
   <div class="sol-slide photo-left">
-    <div class="sol-photo"><img src="assets/images/sol-cftv.png" alt="CFTV"></div>
+    <div class="sol-photo"><img src="assets/images/sol-freeflow.png" alt="Free Flow"></div>
     <div class="sol-text">
-      <span class="sol-lbl">SOLUÇÕES</span>
+      <span class="sol-lbl" id="sff-lbl">SOLUÇÕES</span>
       <div class="sol-inner">
-        <h2>CFTV</h2>
-        <div class="sub" id="s10-sub"></div>
-        <p id="s10-p"></p>
-        <div class="stats">
-          <div class="stat" id="s10-stat1"></div>
-          <div class="stat" id="s10-stat2"></div>
-        </div>
+        <h2>FREE FLOW</h2>
+        <div class="sub" id="sff-sub">Multi Lane Free Flow</div>
+        <p id="sff-p1">Plataforma de cobrança sem barreiras com arquitetura API-first e identificação por LIDAR 360° + OCR.</p>
+        <p id="sff-p2">Desenvolvida para a realidade brasileira, com arquitetura aberta, multi-vendor e redundância ativa, garantindo máxima eficiência operacional e receita protegida.</p>
       </div>
     </div>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
-<!-- ═══ S11 — FIBRA ÓPTICA ═══ -->
-<section class="slide" id="s11" data-label="Fibra Óptica">
+<!-- ═══ SRP — RECUPERA+ ═══ -->
+<section class="slide" id="srp" data-label="Recupera+">
   <div class="sol-slide photo-right">
     <div class="sol-text">
-      <span class="sol-lbl">SOLUÇÕES</span>
+      <span class="sol-lbl" id="srp-lbl">SOLUÇÕES</span>
       <div class="sol-inner">
-        <h2>FIBRA ÓPTICA</h2>
-        <div class="sub" id="s11-sub"></div>
-        <p id="s11-p"></p>
-        <div class="stats">
-          <div class="stat" id="s11-stat1"></div>
-          <div class="stat" id="s11-stat2"></div>
-        </div>
+        <h2>RECUPERA<span style="color:#7460FF;-webkit-text-fill-color:#7460FF;">+</span></h2>
+        <div class="sub" id="srp-sub">Inteligência e Recuperação de Receita</div>
+        <p id="srp-p">Plataforma integrada para coleta, análise e validação de transações com foco em identificar oportunidades de recuperação de receita para operadores de pedágio. Arquitetura modular, escalável e de integração simplificada.</p>
       </div>
     </div>
-    <div class="sol-photo"><img src="assets/images/sol-fibra.png" alt="Fibra Óptica"></div>
+    <div class="sol-photo"><img src="assets/images/sol-recupera.png" alt="Recupera+"></div>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
-<!-- ═══ S12 — ITS ═══ -->
-<section class="slide" id="s12" data-label="ITS">
-  <div class="sol-slide photo-left">
-    <div class="sol-photo"><img src="assets/images/sol-its.png" alt="ITS"></div>
-    <div class="sol-text">
-      <span class="sol-lbl">SOLUÇÕES</span>
-      <div class="sol-inner">
-        <h2>ITS</h2>
-        <div class="sub" id="s12-sub"></div>
-        <p id="s12-p"></p>
+<!-- ═══ S10 — CFTV E FIBRA ÓPTICA ═══ -->
+<section class="slide" id="s10" data-label="CFTV e Fibra Óptica">
+  <div style="position:relative;width:100%;height:100%;display:flex;flex-direction:column;gap:0;overflow:hidden;">
+    <!-- CFTV: metade superior -->
+    <div style="flex:1;display:flex;align-items:center;gap:48px;padding:40px 64px 28px;">
+      <div style="flex:0 0 auto;max-width:320px;"><img src="assets/images/sol-cftv.png" alt="CFTV" style="width:100%;border-radius:16px;object-fit:cover;"></div>
+      <div style="flex:1;min-width:0;">
+        <span class="sol-lbl">SOLUÇÕES</span>
+        <h2 id="s10-cftv-title" style="font-size:clamp(28px,3.6vw,52px);font-weight:900;letter-spacing:-.025em;text-transform:uppercase;color:#67FF8E;line-height:1.05;margin-bottom:6px;">CFTV</h2>
+        <div id="s10-cftv-sub" style="font-size:clamp(13px,1.3vw,16px);font-style:italic;color:#74D5D0;font-weight:300;margin-bottom:16px;">Monitoramento Inteligente</div>
+        <p id="s10-cftv-p" style="font-size:clamp(14px,1.4vw,17px);line-height:1.7;color:#9C9FAB;font-weight:300;margin-bottom:18px;">Soluções completas de CFTV, do estudo técnico à implantação e comissionamento, garantindo monitoramento contínuo, segurança e alta disponibilidade para ambientes rodoviários e corporativos.</p>
+        <div style="display:flex;gap:32px;">
+          <div style="font-size:clamp(17px,1.9vw,26px);font-weight:900;"><span id="s10-cftv-stat1" style="color:#74D5D0;">+350 pontos</span> <span id="s10-cftv-stat1l" style="color:#9C9FAB;font-size:.52em;font-weight:400;letter-spacing:.06em;text-transform:uppercase;">executados</span></div>
+          <div style="font-size:clamp(17px,1.9vw,26px);font-weight:900;"><span id="s10-cftv-stat2" style="color:#74D5D0;">+500 pontos</span> <span id="s10-cftv-stat2l" style="color:#9C9FAB;font-size:.52em;font-weight:400;letter-spacing:.06em;text-transform:uppercase;">em andamento</span></div>
+        </div>
       </div>
     </div>
+    <!-- Divisor -->
+    <div style="height:1px;background:rgba(255,255,255,.1);margin:0 64px;"></div>
+    <!-- FIBRA ÓPTICA: metade inferior -->
+    <div style="flex:1;display:flex;align-items:center;gap:48px;padding:28px 64px 40px;">
+      <div style="flex:1;min-width:0;">
+        <span class="sol-lbl">SOLUÇÕES</span>
+        <h2 id="s10-fibra-title" style="font-size:clamp(22px,2.8vw,40px);font-weight:900;letter-spacing:-.025em;text-transform:uppercase;color:#67FF8E;line-height:1.05;margin-bottom:6px;">FIBRA ÓPTICA</h2>
+        <div id="s10-fibra-sub" style="font-size:clamp(13px,1.3vw,16px);font-style:italic;color:#74D5D0;font-weight:300;margin-bottom:12px;">Infraestrutura de Alta Performance</div>
+        <p id="s10-fibra-p" style="font-size:clamp(14px,1.4vw,17px);line-height:1.65;color:#9C9FAB;font-weight:300;margin-bottom:12px;">Projetos, licenciamentos, implantações e manutenção de redes de fibra óptica para rodovias, cidades inteligentes e operações corporativas, com comunicação estável e preparada para alta demanda.</p>
+        <div style="display:flex;gap:32px;">
+          <div style="font-size:clamp(15px,1.7vw,22px);font-weight:900;"><span id="s10-fibra-stat1" style="color:#74D5D0;">+1000km</span> <span id="s10-fibra-stat1l" style="color:#9C9FAB;font-size:.52em;font-weight:400;letter-spacing:.06em;text-transform:uppercase;">de projetos executados</span></div>
+          <div style="font-size:clamp(15px,1.7vw,22px);font-weight:900;"><span id="s10-fibra-stat2" style="color:#74D5D0;">+100km</span> <span id="s10-fibra-stat2l" style="color:#9C9FAB;font-size:.52em;font-weight:400;letter-spacing:.06em;text-transform:uppercase;">em andamento</span></div>
+        </div>
+      </div>
+      <div style="flex:0 0 auto;max-width:320px;"><img src="assets/images/sol-freeflow.png" alt="Fibra Óptica" style="width:100%;border-radius:16px;object-fit:cover;"></div>
+    </div>
   </div>
-  <img class="mark" src="assets/images/mark.png" alt="">
+</section>
+
+<!-- ═══ S12 — ITS E CABEAMENTO ═══ -->
+<section class="slide" id="s12" data-label="ITS e Cabeamento">
+  <div style="position:relative;width:100%;height:100%;display:flex;flex-direction:column;gap:0;overflow:hidden;">
+    <!-- ITS: metade superior -->
+    <div style="flex:1;display:flex;align-items:center;gap:48px;padding:40px 64px 28px;">
+      <div style="flex:0 0 auto;max-width:320px;"><img src="assets/images/sol-its.png" alt="ITS" style="width:100%;border-radius:16px;object-fit:cover;"></div>
+      <div style="flex:1;min-width:0;">
+        <span class="sol-lbl">SOLUÇÕES</span>
+        <h2 id="s12-its-title" style="font-size:clamp(28px,3.6vw,52px);font-weight:900;letter-spacing:-.025em;text-transform:uppercase;color:#67FF8E;line-height:1.05;margin-bottom:6px;">ITS</h2>
+        <div id="s12-its-sub" style="font-size:clamp(13px,1.3vw,16px);font-style:italic;color:#74D5D0;font-weight:300;margin-bottom:16px;">Sistemas Inteligentes de Transporte</div>
+        <p id="s12-its-p" style="font-size:clamp(14px,1.4vw,17px);line-height:1.7;color:#9C9FAB;font-weight:300;margin-bottom:14px;">Desenvolvimento e implantação de soluções tecnológicas para gestão e operação de rodovias, integrando dados e sistemas para decisões mais rápidas, seguras e eficientes.</p>
+        <div style="display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(116,96,255,.4);border-radius:6px;padding:6px 14px;background:rgba(116,96,255,.08);">
+          <div style="width:6px;height:6px;border-radius:50%;background:#7460FF;flex-shrink:0;"></div>
+          <span id="s12-its-badge" style="font-size:clamp(11px,1.1vw,13px);color:#7460FF;font-weight:600;letter-spacing:.08em;text-transform:uppercase;">Em Desenvolvimento</span>
+        </div>
+        <p id="s12-its-badge-p" style="font-size:clamp(11px,1.1vw,13px);color:rgba(225,222,225,0.55);line-height:1.45;font-weight:300;margin-top:10px;">Campo de expansão para novos produtos e soluções ITS, acompanhando as demandas emergentes de mobilidade e infraestrutura inteligente.</p>
+      </div>
+    </div>
+    <!-- Divisor -->
+    <div style="height:1px;background:rgba(255,255,255,.1);margin:0 64px;"></div>
+    <!-- CABEAMENTO: metade inferior -->
+    <div style="flex:1;display:flex;align-items:center;gap:48px;padding:28px 64px 40px;">
+      <div style="flex:1;min-width:0;">
+        <span class="sol-lbl">SOLUÇÕES</span>
+        <h2 id="s12-cab-title" style="font-size:clamp(22px,2.8vw,40px);font-weight:900;letter-spacing:-.025em;text-transform:uppercase;color:#67FF8E;line-height:1.05;margin-bottom:6px;">CABEAMENTO<br>ESTRUTURADO</h2>
+        <div id="s12-cab-sub" style="font-size:clamp(13px,1.3vw,16px);font-style:italic;color:#74D5D0;font-weight:300;margin-bottom:12px;">Infraestrutura de Rede Organizada</div>
+        <p id="s12-cab-p" style="font-size:clamp(14px,1.4vw,17px);line-height:1.65;color:#9C9FAB;font-weight:300;">Projetos e implantações de infraestrutura de comunicação organizadas, robustas e preparadas para expansão tecnológica.</p>
+      </div>
+      <div style="flex:0 0 auto;max-width:320px;"><img src="assets/images/sol-equip.png" alt="Cabeamento Estruturado" style="width:100%;border-radius:16px;object-fit:cover;"></div>
+    </div>
+  </div>
 </section>
 
 <!-- ═══ S13 — EQUIPAMENTOS ═══ -->
@@ -199,75 +254,162 @@
       <div class="sol-inner">
         <h2>EQUIPAMENTOS<br>E MATERIAIS</h2>
         <div class="sub">&nbsp;</div>
-        <p id="s13-p"></p>
+        <p id="s13-p">Fornecimento de equipamentos e materiais de Telecom, TI e cabeamento com alto padrão de qualidade e desempenho para operações críticas.</p>
       </div>
     </div>
-    <div class="sol-photo"><img src="assets/images/sol-equip.png" alt="Equipamentos"></div>
+    <div class="sol-photo"><img src="assets/images/sol-equip.png" alt="Equipamentos e Materiais"></div>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
-<!-- ═══ S14 — CABEAMENTO ═══ -->
-<section class="slide" id="s14" data-label="Cabeamento">
-  <div class="sol-slide photo-left">
-    <div class="sol-photo"><img src="assets/images/sol-cabo.png" alt="Cabeamento Estruturado"></div>
-    <div class="sol-text">
-      <span class="sol-lbl">SOLUÇÕES</span>
-      <div class="sol-inner">
-        <h2>CABEAMENTO<br>ESTRUTURADO</h2>
-        <div class="sub">&nbsp;</div>
-        <p id="s14-p"></p>
-      </div>
+<!-- ═══ S14 — EQUIPE AIVX ═══ -->
+<section class="slide" id="s14" data-label="Equipe AIVX">
+
+  <!-- Carrossel: fundo em tela cheia -->
+  <div class="s14-cs s14-active" style="background:url('assets/images/equipe-1.jpg') center/cover no-repeat;"></div>
+  <div class="s14-cs" style="background:url('assets/images/equipe-2.jpg') center/cover no-repeat;"></div>
+  <div class="s14-cs" style="background:url('assets/images/equipe-3.jpg') center/cover no-repeat;"></div>
+  <div class="s14-cs" style="background:url('assets/images/equipe-4.jpg') center/cover no-repeat;"></div>
+  <div class="s14-cs" style="background:url('assets/images/equipe-5.jpg') center/cover no-repeat;"></div>
+  <div class="s14-cs" style="background:url('assets/images/equipe-6.jpg') center/cover no-repeat;"></div>
+
+  <!-- Overlay escuro -->
+  <div style="position:absolute;inset:0;background:linear-gradient(105deg,rgba(6,6,14,.88) 0%,rgba(6,6,14,.62) 55%,rgba(6,6,14,.3) 100%);pointer-events:none;z-index:1;"></div>
+
+  <!-- Conteúdo -->
+  <div style="position:relative;z-index:2;display:flex;flex-direction:column;justify-content:center;height:100%;padding:60px 72px;gap:24px;max-width:680px;">
+    <div id="s14-label" style="font-size:100px;font-weight:700;font-family:'Lexend',sans-serif;line-height:.95;letter-spacing:-.04em;background:linear-gradient(90deg,#67FF8E,#7460FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">EQUIPE AIVX</div>
+    <div id="s14-hl" style="font-size:clamp(16px,1.7vw,22px);line-height:1.5;color:#E1DEE1;font-weight:300;"><span style="color:var(--teal);">Pessoas certas.</span> Tecnologia que transforma infraestrutura em resultado real.</div>
+    <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px;">
+      <div style="display:flex;align-items:center;gap:10px;"><div style="width:6px;height:6px;border-radius:50%;background:var(--teal);flex-shrink:0;"></div><div id="s14-t1" style="font-size:clamp(13px,1.3vw,16px);color:#9C9FAB;font-weight:300;line-height:1.5;">Infraestrutura crítica implantada com precisão</div></div>
+      <div style="display:flex;align-items:center;gap:10px;"><div style="width:6px;height:6px;border-radius:50%;background:var(--teal);flex-shrink:0;"></div><div id="s14-t2" style="font-size:clamp(13px,1.3vw,16px);color:#9C9FAB;font-weight:300;line-height:1.5;">Valor mensurável em cada projeto entregue</div></div>
+      <div style="display:flex;align-items:center;gap:10px;"><div style="width:6px;height:6px;border-radius:50%;background:var(--teal);flex-shrink:0;"></div><div id="s14-t3" style="font-size:clamp(13px,1.3vw,16px);color:#9C9FAB;font-weight:300;line-height:1.5;">Segurança integrada em todo o ciclo de operação</div></div>
+      <div style="display:flex;align-items:center;gap:10px;"><div style="width:6px;height:6px;border-radius:50%;background:var(--teal);flex-shrink:0;"></div><div id="s14-t4" style="font-size:clamp(13px,1.3vw,16px);color:#9C9FAB;font-weight:300;line-height:1.5;">Soluções inovadoras para mobilidade e conectividade</div></div>
     </div>
   </div>
-  <img class="mark" src="assets/images/mark.png" alt="">
+
+  <!-- Indicadores do carrossel -->
+  <div style="position:absolute;bottom:32px;left:72px;display:flex;gap:8px;z-index:2;">
+    <div class="s14-dot s14-dot-on"></div>
+    <div class="s14-dot"></div>
+    <div class="s14-dot"></div>
+    <div class="s14-dot"></div>
+    <div class="s14-dot"></div>
+    <div class="s14-dot"></div>
+  </div>
 </section>
 
 <!-- ═══ S15 — CASES INTRO ═══ -->
 <section class="slide" id="s15" data-label="Cases">
-  <img class="bgv"  src="assets/images/v-shape-full.jpg" alt="">
+  <img class="bgv" src="assets/images/bg-cases-intro.jpg" alt="">
   <img class="bghex" src="assets/images/bg-hex.png" alt="">
   <div class="ov"></div>
   <div class="cc">
-    <h1 id="s15-title"></h1>
-    <p  id="s15-sub"></p>
+    <h1 id="s15-title">CASES EM ANDAMENTO</h1>
+    <p id="s15-sub">Projetos contínuos que reforçam nossa capacidade técnica e confiabilidade operacional.</p>
   </div>
   <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
 <!-- ═══ S16 — CASES DETAIL ═══ -->
 <section class="slide" id="s16" data-label="Cases">
-  <img class="bgimg" src="assets/images/cases-bg.png" alt="">
+  <img class="bgimg" src="assets/images/bg-cases.png" alt="">
   <div class="ov"></div>
-  <div class="cc">
-    <div class="lbl" id="s16-title"></div>
+  <div class="cc" style="flex-direction:column;align-items:flex-start;">
+    <div class="lbl" id="s16-title" style="margin-bottom:52px;">CASES EM ANDAMENTO</div>
     <div class="grid">
-      <div class="case-card"><div class="cliente" id="s16-c1-cli"></div><div class="servico" id="s16-c1-svc"></div></div>
-      <div class="case-card"><div class="cliente" id="s16-c2-cli"></div><div class="servico" id="s16-c2-svc"></div></div>
-      <div class="case-card"><div class="cliente" id="s16-c3-cli"></div><div class="servico" id="s16-c3-svc"></div></div>
-      <div class="case-card"><div class="cliente" id="s16-c4-cli"></div><div class="servico" id="s16-c4-svc"></div></div>
-      <div class="case-card"><div class="cliente" id="s16-c5-cli"></div><div class="servico" id="s16-c5-svc"></div></div>
-      <div class="case-card"><div class="cliente" id="s16-c6-cli"></div><div class="servico" id="s16-c6-svc"></div></div>
+      <!-- Row superior: 4 cards -->
+      <div class="row-top">
+        <!-- Ecovias Araguaia -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/logo-ecovias-araguaia.png" alt="Ecovias Araguaia" style="max-height:32px;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);">
+          </div>
+          <div class="servico">
+            <span id="s16-araguaia-s1">Manutenção contínua</span><br>
+            <span id="s16-araguaia-s2">Manutenção de fibra óptica</span><br>
+            <span id="s16-araguaia-s3">Manutenção CFTV</span>
+          </div>
+        </div>
+        <!-- Ecovias Raposo Castello -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/logo-ecovias-raposo-castello.png" alt="Ecovias Raposo Castello" style="max-height:32px;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);">
+          </div>
+          <div class="servico">
+            <span id="s16-raposo-s1">Projeto executivo de fibra óptica</span>
+          </div>
+        </div>
+        <!-- Ecovias Capixaba -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/logo-ecovias-capixaba.png" alt="Ecovias Capixaba" style="max-height:32px;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);">
+          </div>
+          <div class="servico">
+            <span id="s16-capixaba-s1">Implantação de câmera PTZ para monitoramento</span>
+          </div>
+        </div>
+        <!-- Ecovias Rio Minas -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/logo-ecovias-riominas.png" alt="Ecovias Rio Minas" style="max-height:32px;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);">
+          </div>
+          <div class="servico">
+            <span id="s16-riominas-s1">Implantação de câmera PTZ para monitoramento</span>
+          </div>
+        </div>
+      </div>
+      <!-- Row inferior: 3 cards centralizados -->
+      <div class="row-bot">
+        <!-- Ecovias Norte Minas -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/logo-ecovias-norte-minas.png" alt="Ecovias Norte Minas" style="max-height:32px;max-width:100%;object-fit:contain;filter:brightness(0) invert(1);">
+          </div>
+          <div class="servico">
+            <span id="s16-norteminas-s1">Manutenção de torres</span>
+          </div>
+        </div>
+        <!-- Rota Verde -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/img-logo-rota-verde-white.png" alt="Rota Verde" style="max-height:44px;max-width:100%;object-fit:contain;">
+          </div>
+          <div class="servico">
+            <span id="s16-rotaverde-s1">Implantação CFTV</span><br>
+            <span id="s16-rotaverde-s2">POC de Cinto e Celular</span>
+          </div>
+        </div>
+        <!-- Nova Rota do Oeste -->
+        <div class="case-card">
+          <div class="cliente">
+            <img src="logos/logo-nova-rota-white.png" alt="Nova Rota do Oeste" style="max-height:72px;max-width:100%;object-fit:contain;">
+          </div>
+          <div class="servico">
+            <span id="s16-novarota-s1">Implantação CFTV</span><br>
+            <span id="s16-novarota-s2">POC de Cinto e Celular</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <img class="mark" src="assets/images/mark.png" alt="">
 </section>
 
 <!-- ═══ S17 — PARCEIROS ═══ -->
 <section class="slide" id="s17" data-label="Parceiros">
-  <img class="bg1" src="assets/images/parceiros-bg.jpg" alt="">
+  <img class="bg1" src="assets/images/bg-parceiros.jpg" alt="">
   <div class="ov"></div>
   <div class="cc">
-    <h1 id="s17-title"></h1>
+    <h1 id="s17-title">PARCEIROS TECNOLÓGICOS</h1>
     <div class="parc-grid">
-      <div class="parc-card"><img class="logo-lg" src="assets/images/parceiros/digifort.png" alt="Digifort"></div>
+      <div class="parc-card"><img src="assets/images/parceiros/digifort.png" alt="Digifort"></div>
       <div class="parc-card"><img src="assets/images/parceiros/huawei.png" alt="Huawei"></div>
       <div class="parc-card"><img src="assets/images/parceiros/vivotek.png" alt="Vivotek"></div>
-      <div class="parc-card"><img class="logo-lg" src="assets/images/parceiros/axis.jpg" alt="Axis"></div>
+      <div class="parc-card"><img src="assets/images/parceiros/axis.jpg" alt="Axis"></div>
       <div class="parc-card"><img src="assets/images/parceiros/dahua.png" alt="Dahua"></div>
       <div class="parc-card"><img src="assets/images/parceiros/cisco.png" alt="Cisco"></div>
       <div class="parc-card"><img src="assets/images/parceiros/nokia.png" alt="Nokia"></div>
-      <div class="parc-card"><img class="logo-lg" src="assets/images/parceiros/prysmian.png" alt="Prysmian"></div>
+      <div class="parc-card"><img src="assets/images/parceiros/prysmian.png" alt="Prysmian"></div>
       <div class="parc-card"><img src="assets/images/parceiros/milesight.png" alt="Milesight"></div>
       <div class="parc-card"><img src="assets/images/parceiros/telcabos.jpg" alt="Telcabos"></div>
       <div class="parc-card"><img src="assets/images/parceiros/lightera.jpg" alt="Lightera"></div>
@@ -282,11 +424,11 @@
   <div class="cc">
     <div class="left">
       <div class="phrases">
-        <div class="phrase" id="s18-p1"></div>
-        <div class="phrase" id="s18-p2"></div>
-        <div class="phrase" id="s18-p3"></div>
+        <div class="phrase" id="s18-p1">Tecnologia que antecipa.</div>
+        <div class="phrase" id="s18-p2">Dados que orientam.</div>
+        <div class="phrase" id="s18-p3">Soluções que mantêm operações em movimento.</div>
       </div>
-      <div class="tagline" id="s18-tag"></div>
+      <div class="tagline" id="s18-tag">Inteligência que move</div>
     </div>
     <div class="divv"></div>
     <div class="right">
